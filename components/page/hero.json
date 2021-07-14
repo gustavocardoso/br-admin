@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "money-check"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    }
+  }
+}

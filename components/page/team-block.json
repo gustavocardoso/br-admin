@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_team_blocks",
+  "info": {
+    "name": "teamBlock",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.member"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

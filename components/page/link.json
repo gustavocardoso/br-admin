@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_links",
+  "info": {
+    "name": "link",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

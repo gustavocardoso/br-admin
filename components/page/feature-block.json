@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_feature_blocks",
+  "info": {
+    "name": "featureBlock",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.feature"
+    }
+  }
+}

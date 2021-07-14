@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_logos",
+  "info": {
+    "name": "logo",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "imageReverse": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "altText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
